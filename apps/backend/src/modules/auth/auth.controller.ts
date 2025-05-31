@@ -9,6 +9,6 @@ export class AuthController{
 
     @Get('')
     async authMethod(){ 
-        return this.authService.authMethod()
+        // return this.authService.authMethod()
     }
 }

@@ -7,6 +7,6 @@ export class UsersController {
 
     @Get('')
     async testUsers(){
-        return this.usersService.testUsers()
+        // return this.usersService.testUsers()
     }
 }
