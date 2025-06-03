@@ -5,8 +5,5 @@ import { Controller, Get } from "@nestjs/common";
 export class UsersController {
     constructor(private readonly usersService: UsersService){}
 
-    @Get('')
-    async testUsers(){
-        // return this.usersService.testUsers()
-    }
+    
 }

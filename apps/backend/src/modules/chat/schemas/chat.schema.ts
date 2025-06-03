@@ -20,3 +20,5 @@ export class Chat {
     lastMessage?: Types.ObjectId
 
 }
+
+export const ChatSchema = SchemaFactory.createForClass(Chat)
